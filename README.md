@@ -2,6 +2,13 @@
 
 root@ardeshir]:~/gosrc/github.com/ardeshir/gotf/api
 
+```javascript
+
+$ docker-compose -f docker-compose.yml up -d --build
+
+```
+
+
 0> curl localhost:9001/recognize -F 'image=@./fruitbowl.jpg'
 
 ```javascript
