@@ -3,6 +3,7 @@
 root@ardeshir]:~/gosrc/github.com/ardeshir/gotf/api
 
 0> curl localhost:9001/recognize -F 'image=@./fruitbowl.jpg'
+
 {
     "filename": "fruitbowl.jpg",
     "labels": [{
