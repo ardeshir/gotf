@@ -4,6 +4,8 @@ root@ardeshir]:~/gosrc/github.com/ardeshir/gotf/api
 
 0> curl localhost:9001/recognize -F 'image=@./fruitbowl.jpg'
 
+```javascript
+
 {
     "filename": "fruitbowl.jpg",
     "labels": [{
@@ -23,3 +25,5 @@ root@ardeshir]:~/gosrc/github.com/ardeshir/gotf/api
         "probability": 0.046001446
     }]
 }
+
+```
