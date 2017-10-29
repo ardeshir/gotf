@@ -2,6 +2,23 @@
 
 root@ardeshir]:~/gosrc/github.com/ardeshir/gotf/api
 
-0> curl localhost:9001/recognize -F 'image=@./cat.jpg'
-
-{"filename":"cat.jpg","labels":[{"label":"Persian cat","probability":0.7091575},{"label":"Siamese cat","probability":0.12169986},{"label":"tabby","probability":0.084206946},{"label":"Egyptian cat","probability":0.04728738},{"label":"tiger cat","probability":0.02550238}]}
+0> curl localhost:9001/recognize -F 'image=@./fruitbowl.jpg'
+{
+    "filename": "fruitbowl.jpg",
+    "labels": [{
+        "label": "orange",
+        "probability": 0.43016684
+    }, {
+        "label": "lemon",
+        "probability": 0.20536041
+    }, {
+        "label": "Granny Smith",
+        "probability": 0.108103454
+    }, {
+        "label": "bell pepper",
+        "probability": 0.059770357
+    }, {
+        "label": "mortar",
+        "probability": 0.046001446
+    }]
+}
